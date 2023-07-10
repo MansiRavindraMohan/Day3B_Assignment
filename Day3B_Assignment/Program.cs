@@ -14,9 +14,14 @@ namespace Day3B_Assignment
             //ConstructorTypes types = new ConstructorTypes(145, "Mansi");
             //ConstructorTypes typesTwo = new ConstructorTypes(types);
 
-            Shapes shapes = new Shapes();
-            shapes.calculateArea(10, 20);
-            shapes.getColor();
+            //Shapes shapes = new Shapes();
+            //shapes.calculateArea(10, 20);
+            //shapes.getColor();
+
+            DeriveClass deriveClass = new DeriveClass();
+            deriveClass.DerivedMethod();
+            deriveClass.PublicMethod();
+            deriveClass.PublicMethodFour();
             Console.ReadLine();
         }
     }
